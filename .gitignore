@@ -1,3 +1,11 @@
+#Source
+source/
+
+#result
+result.txt
+
+*.pdf
+
 # ---> Python
 # Byte-compiled / optimized / DLL files
 __pycache__/
