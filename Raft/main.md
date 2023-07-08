@@ -1,3 +1,9 @@
+---
+title: "实验报告"
+---
+
+
+
 |课程名称：大数据分布式计算|学期：2023春|成绩：|
 |-|-|-|
 |指导教师：李青泽|学生姓名：邓力予|学生学号：20201910442|
@@ -72,6 +78,16 @@ Slave 输出
 ![创建 Group Slave 输出](pictures/slave_group.JPG)
 
 ## PART 2A
+
+目前都是只有一个 Master 若我们再增加一个 Master
+
+![新加入 Master](pictures/join_master.png)
+
+现在我们使用`python -m test.test_master stop_master`停止第一个启动的 Master
+
+![新 Master](pictures/stop_master.png)
+
+可以看到，日志任然可以正常送达。
 
 ## PART 2B
 
